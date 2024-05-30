@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vegetable Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <h1>Vegetable Calculator</h1>
+    <div id="calculator">
+      <label for="vegetable">Vegetable Name:</label>
+      <input type="text" id="vegetable" placeholder="Enter vegetable name" />
+      <br />
+      <label for="weight">Weight (kg):</label>
+      <input type="number" id="weight" placeholder="Enter weight in kg" />
+      <br />
+      <label for="price">Price per kg:</label>
+      <input type="number" id="price" placeholder="Enter price per kg" />
+      <br />
+      <button onclick="calculatePrice()">Calculate</button>
+      <br />
+      <p id="result"></p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
